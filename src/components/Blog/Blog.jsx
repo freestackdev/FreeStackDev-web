@@ -166,7 +166,7 @@ const Blog = () => {
                 <div className="p-6">
                   {/* Tags */}
                   <div className="flex flex-wrap gap-2 mb-3">
-                    {blog.tags.slice(0, 2).map((tag) => (
+                    {blog.tags.slice(0, 1).map((tag) => (
                       <span
                         key={tag}
                         className="px-2 py-1 bg-gradient-to-r from-cyan-100 to-blue-100 dark:from-cyan-900/50 dark:to-blue-900/50 text-cyan-700 dark:text-cyan-300 text-xs rounded-full font-medium flex items-center gap-1"
@@ -175,9 +175,9 @@ const Blog = () => {
                         {tag}
                       </span>
                     ))}
-                    {blog.tags.length > 2 && (
+                    {blog.tags.length > 1 && (
                       <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 text-xs rounded-full font-medium">
-                        +{blog.tags.length - 2}
+                        +{blog.tags.length - 1}
                       </span>
                     )}
                   </div>
