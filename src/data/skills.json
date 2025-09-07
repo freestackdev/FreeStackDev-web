@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Frontend",
+    "skills": [
+      { "name": "React", "level": 95, "icon": "⚛️" },
+      { "name": "TypeScript", "level": 90, "icon": "📘" },
+      { "name": "Tailwind CSS", "level": 92, "icon": "🎨" },
+      { "name": "Next.js", "level": 88, "icon": "▲" }
+    ]
+  },
+  {
+    "category": "Backend",
+    "skills": [
+      { "name": "Node.js", "level": 90, "icon": "🟢" },
+      { "name": "Express.js", "level": 85, "icon": "🚀" },
+      { "name": "MongoDB", "level": 82, "icon": "🍃" },
+      { "name": "PostgreSQL", "level": 78, "icon": "🐘" }
+    ]
+  },
+  {
+    "category": "Mobile",
+    "skills": [
+      { "name": "React Native", "level": 87, "icon": "📱" },
+      { "name": "Flutter", "level": 75, "icon": "🦋" },
+      { "name": "Expo", "level": 85, "icon": "📲" }
+    ]
+  },
+  {
+    "category": "Tools & Others",
+    "skills": [
+      { "name": "Git", "level": 92, "icon": "🔧" },
+      { "name": "Docker", "level": 80, "icon": "🐳" },
+      { "name": "AWS", "level": 75, "icon": "☁️" },
+      { "name": "Firebase", "level": 85, "icon": "🔥" }
+    ]
+  }
+]

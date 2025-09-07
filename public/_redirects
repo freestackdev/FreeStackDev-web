@@ -1,0 +1,17 @@
+# Netlify Redirects Configuration
+# This file handles URL redirects and rewrites
+
+# Force HTTPS redirect for all HTTP requests
+# This ensures all traffic is automatically redirected to HTTPS
+http://freestackdev.netlify.app/* https://freestackdev.netlify.app/:splat 301!
+http://www.freestackdev.netlify.app/* https://freestackdev.netlify.app/:splat 301!
+
+# Handle custom domain HTTPS redirects (update with your actual domain)
+# Uncomment and update these lines when you have a custom domain
+# http://yourdomain.com/* https://yourdomain.com/:splat 301!
+# http://www.yourdomain.com/* https://yourdomain.com/:splat 301!
+# https://www.yourdomain.com/* https://yourdomain.com/:splat 301!
+
+# SPA fallback - serve index.html for all routes that don't match files
+# This ensures React Router works correctly with direct URL access
+/*    /index.html   200

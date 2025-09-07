@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "EcoTracker MERN App",
+    "description": "A full-stack sustainability tracking application built with MongoDB, Express, React, and Node.js. Features user authentication, data visualization, and real-time updates.",
+    "image": "https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["React", "Node.js", "MongoDB", "Express", "Chart.js"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com/example/ecotracker",
+    "category": "fullstack"
+  },
+  {
+    "id": 2,
+    "title": "MindfulMoments Mobile App",
+    "description": "Cross-platform meditation and wellness app built with React Native. Includes guided meditations, progress tracking, and social features.",
+    "image": "https://images.pexels.com/photos/3760790/pexels-photo-3760790.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["React Native", "Firebase", "Redux", "Expo"],
+    "liveUrl": "https://play.google.com/store",
+    "githubUrl": "https://github.com/example/mindful-moments",
+    "category": "mobile"
+  },
+  {
+    "id": 3,
+    "title": "TaskFlow SPA",
+    "description": "Modern single-page application for project management with drag-and-drop functionality, real-time collaboration, and intuitive design.",
+    "image": "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["React", "TypeScript", "Tailwind CSS", "Socket.io"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com/example/taskflow",
+    "category": "spa"
+  },
+  {
+    "id": 4,
+    "title": "WeatherWise PWA",
+    "description": "Progressive web app providing detailed weather forecasts with offline capabilities, location-based services, and beautiful animations.",
+    "image": "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["React", "PWA", "Service Workers", "Weather API"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com/example/weatherwise",
+    "category": "spa"
+  },
+  {
+    "id": 5,
+    "title": "CryptoPortfolio Tracker",
+    "description": "Real-time cryptocurrency portfolio tracking application with advanced charts, alerts, and portfolio analytics.",
+    "image": "https://images.pexels.com/photos/7567486/pexels-photo-7567486.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["React", "Node.js", "WebSocket", "Chart.js", "CoinGecko API"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com/example/crypto-tracker",
+    "category": "fullstack"
+  },
+  {
+    "id": 6,
+    "title": "FitnessPal Mobile",
+    "description": "Comprehensive fitness tracking mobile application with workout plans, nutrition tracking, and social challenges.",
+    "image": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["Flutter", "Firebase", "SQLite", "Health APIs"],
+    "liveUrl": "https://apps.apple.com",
+    "githubUrl": "https://github.com/example/fitness-pal",
+    "category": "mobile"
+  }
+]
