@@ -165,4 +165,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For inquiries: [contact@freestackdev.com](mailto:contact@freestackdev.com)  
+For inquiries: [info@freestackdev.com](mailto:info@freestackdev.com)  
