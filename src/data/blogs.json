@@ -9,7 +9,7 @@
     "tags": ["Mobile", "React Native", "Publishing", "App Store"],
     "readTime": "8 min read",
     "publishDate": "2024-01-15",
-    "author": "Alex Developer"
+    "author": "Free Stack Developer"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "tags": ["API", "Testing", "Postman", "Backend"],
     "readTime": "6 min read",
     "publishDate": "2024-01-10",
-    "author": "Alex Developer"
+    "author": "Free Stack Developer"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
     "tags": ["Productivity", "Workflow", "Mindset", "Environment"],
     "readTime": "7 min read",
     "publishDate": "2024-01-05",
-    "author": "Alex Developer"
+    "author": "Free Stack Developer"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "tags": ["AI", "Machine Learning", "APIs", "Innovation"],
     "readTime": "9 min read",
     "publishDate": "2024-01-03",
-    "author": "Alex Developer"
+    "author": "Free Stack Developer"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "tags": ["MERN", "Full-stack", "Best Practices", "Node.js", "React"],
     "readTime": "12 min read",
     "publishDate": "2024-01-01",
-    "author": "Alex Developer"
+    "author": "Free Stack Developer"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "tags": ["SPA", "Performance", "Optimization", "React", "Frontend"],
     "readTime": "11 min read",
     "publishDate": "2023-12-28",
-    "author": "Alex Developer"
+    "author": "Free Stack Developer"
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "tags": ["Deployment", "Vercel", "Netlify", "Serverless", "CI/CD"],
     "readTime": "10 min read",
     "publishDate": "2023-12-25",
-    "author": "Alex Developer"
+    "author": "Free Stack Developer"
   },
   {
     "id": 9,
@@ -105,6 +105,6 @@
     "tags": ["Testing", "Mobile", "React Native", "Quality Assurance"],
     "readTime": "13 min read",
     "publishDate": "2023-12-22",
-    "author": "Alex Developer"
+    "author": "Free Stack Developer"
   }
 ]
