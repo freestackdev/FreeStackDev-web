@@ -1,53 +1,88 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- ✅ Basic Setup -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="freestackdev.com - Full-stack developer specializing in MERN stack, mobile apps, and modern web applications. View my portfolio and get in touch." />
-    <meta name="keywords" content="developer, portfolio, react, nodejs, fullstack, mobile app development" />
-    <meta name="author" content="freestackdev.com" />
-    
-    <!-- Open Graph / Facebook -->
+
+    <!-- ✅ Primary Meta Tags -->
+    <title>Free Stack Dev | Full-Stack Developer Portfolio</title>
+    <meta name="description" content="Full-stack developer specializing in React, Node.js, and mobile app development. Explore projects, skills, and hire me to bring your ideas to life." />
+    <meta name="keywords" content="full-stack developer, react, node.js, portfolio, mobile apps, web development, MERN stack, freelancing, hire me, react-native, javascript, typescript, next.js, tailwind, css, html, mongodb, express" />
+    <meta name="author" content="Free Stack Dev" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://freestackdev.com/" />
+
+    <!-- ✅ Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://your-portfolio-url.com/" />
-    <meta property="og:title" content="Free Stack Dev - Full-Stack Developer Portfolio" />
-    <meta property="og:description" content="Crafting magical digital experiences with modern web technologies. Specializing in full-stack development, mobile apps, and bringing ideas to life." />
-    <meta property="og:image" content="https://your-portfolio-url.com/og-image.jpg" />
+    <meta property="og:url" content="https://freestackdev.com/" />
+    <meta property="og:title" content="Free Stack Dev | Full-Stack Developer Portfolio" />
+    <meta property="og:description" content="Crafting modern digital experiences with React, Node.js, and mobile apps. Check my portfolio and get in touch today." />
+    <meta property="og:image" content="https://freestackdev.com/og-image.jpg" />
 
-    <!-- Twitter -->
+    <!-- ✅ Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://your-portfolio-url.com/" />
-    <meta property="twitter:title" content="Free Stack Dev - Full-Stack Developer Portfolio" />
-    <meta property="twitter:description" content="Crafting magical digital experiences with modern web technologies." />
-    <meta property="twitter:image" content="https://your-portfolio-url.com/og-image.jpg" />
+    <meta property="twitter:url" content="https://freestackdev.com/" />
+    <meta property="twitter:title" content="Free Stack Dev | Full-Stack Developer Portfolio" />
+    <meta property="twitter:description" content="Crafting modern digital experiences with React, Node.js, and mobile apps." />
+    <meta property="twitter:image" content="https://freestackdev.com/og-image.jpg" />
 
-    <title>Free Stack Dev - Full-Stack Developer Portfolio</title>
-    
-    <!-- Preconnect to external domains -->
+    <!-- ✅ Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- ✅ Fonts & Preconnect -->
     <link rel="preconnect" href="https://images.pexels.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Inter Font -->
     <link 
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" 
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
     >
-    
-    <!-- Google reCAPTCHA -->
+
+    <!-- ✅ Structured Data (Schema.org JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Free Stack Dev",
+      "url": "https://freestackdev.com",
+      "sameAs": [
+        "https://github.com/yourusername",
+        "https://linkedin.com/in/yourprofile",
+        "https://twitter.com/yourhandle"
+      ],
+      "jobTitle": "Full-Stack Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "freestackdev.com"
+      }
+    }
+    </script>
+
+    <!-- ✅ Google reCAPTCHA -->
     <script 
       src="https://www.google.com/recaptcha/api.js" 
       async 
       defer
-      integrity="sha384-g0D8zs-i3uwQD+PxD0jSmfHHxcvGmHiYx5/9ePgAiasn2As6xtUVZPQKtJB5cks"
-      crossorigin="anonymous"
     ></script>
+
+    <!-- ✅ Google Analytics (Replace G-XXXXXXX with your ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXX');
+    </script>
   </head>
   <body>
+    <!-- ✅ Semantic Root -->
     <div id="root"></div>
+
+    <!-- ✅ Your React App -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
